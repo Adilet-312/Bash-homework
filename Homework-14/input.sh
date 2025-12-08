@@ -1,15 +1,10 @@
 #!/bin/bash
 
-echo "What is your name?"
-read name
-echo "What is your age?"
-read age
-echo "What is your favorite language?"
-read favorite_language
-echo "What is your hobby?"
-read hobby
-echo "What is your dream?"
-read dream
+read -p "What is your name? " name
+read -p "What is your age? " age
+read -p "What is your favorite language? " favorite_language
+read -p "What is your hobby? " hobby
+read -p "What is your dream? " dream
 
 echo "Hi, my name is $name, and I'm $age years old. Every morning, $name likes to spend time $hobby.
 As a $age-year-old, I believe it's never too late to follow your dreams. My favorite programming language is $favorite_language.
